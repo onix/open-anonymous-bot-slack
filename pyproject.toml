@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "open-anonymous-bot-slack"
+version = "0.1.0"
+description = "Open source anonymous Slack bot"
+authors = ["Vadym Nekhai <vadimnekhai@gmail.com>"]
+readme = "README.md"
+packages = [{include = "open_anonymous_bot_slack"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
